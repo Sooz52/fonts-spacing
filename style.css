@@ -1,17 +1,33 @@
+heading-font: "Merienda One";
+paragraph-font: "Poiret One", Helvetica, sans-serif;
 div {
   max-width: 1600px;
     margin: 0 auto; 
 }
 .home-title {
   color: #D8DDDE;
+  font-size: 2em;
+  font-family: "Merienda One";
+  margin-top: 10px;
 }
 nav a { 
   text-align: center;
   color: #D8DDDE;
   text-decoration: none;
+  padding: 35px;
 }
 .icon {
     width: 80px;
+  padding-top: 10px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+#logo_link {  
+  padding-top: 5px;
 }
 #hero-img {
   width: 100%;
@@ -32,6 +48,11 @@ background {
   height: 725px; }
 body { 
   background-color: #BD632F;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
 }
 h4 {
   color: #D8DDDE;
@@ -43,10 +64,17 @@ h4 {
     background-color: #BD632F;
     color: #D8973C;
 }
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
 .book, .join { 
   background-color: #273E47;
     color: #D8DDDE;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover, .join:hover { 
   background-color: #BD632F; 
@@ -57,16 +85,22 @@ h4 {
 }
 .msg { 
   background-color: #143109; 
+  line-height: 1.5em;
+  padding: 35px;
 }
 .msg h2 {
   color: #D8DDDE;
 }
 .msg p {
   color: #D8DDDE;
+  font-size: .8em;
+   padding-bottom: 15px;
 }
 footer {  
   background-color: #273E47; 
     color: #D8DDDE;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 footer a {
   color: #D8DDDE;
@@ -80,4 +114,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img { 
+  padding-top: 15px;
 }
